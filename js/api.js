@@ -7,7 +7,7 @@ const API_KEY = "af0e766a1ccf475588965f28a4346fe4";
 
 const getNews = async (query) => {
   try {
-    const rezultat = await fetch(`${ENDPOINT}?apiKey=${API_KEY}&q=${query}`);
+    const rezultat = await fetch(`${ENDPOINT}?q=${query}&apiKey=${API_KEY}`);
     console.dir(rezultat);
     const raspuns = await rezultat.json();
     console.dir(raspuns);
