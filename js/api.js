@@ -1,7 +1,7 @@
 import { updateNewsList } from "./markup.js";
 
 const ENDPOINT = "https://newsapi.org/v2/everything";
-const API_KEY = "af0e766a1ccf475588965f28a4346fe4";
+const API_KEY = "ff9ae22ea3a840909fccf72096c77bf0";
 
 // https://newsapi.org/v2/everything?q=tesla&from=2023-10-24&sortBy=publishedAt&apiKey=API_KEY
 
